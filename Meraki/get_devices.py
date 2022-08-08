@@ -14,7 +14,6 @@ headers = {
 }
 
 
-
 def get_orgs():
     url = f"{base_path}/organizations"
     response = requests.get(url, headers=headers)
